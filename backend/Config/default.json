@@ -1,0 +1,3 @@
+{
+    "mongoURI": "mongodb://lazaromoses77:studentapp2023@ac-blpvi7r-shard-00-00.ggkcgoc.mongodb.net:27017,ac-blpvi7r-shard-00-01.ggkcgoc.mongodb.net:27017,ac-blpvi7r-shard-00-02.ggkcgoc.mongodb.net:27017/?ssl=true&replicaSet=atlas-ahea7x-shard-0&authSource=admin&retryWrites=true&w=majority"
+}
