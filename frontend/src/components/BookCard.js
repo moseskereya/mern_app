@@ -12,9 +12,12 @@ const BookCard = (props) => {
               height={200}
               width={200}
       />
-      <div className='desc'>
-        <h3>{student.firstname}</h3>
+          <div className='desc'>
+              <h2>{}</h2>
+       <h3>{student.firstname}</h3>
         <p>{student.lastname}</p>
+              <p>{student.email}</p>
+              <p>{student.class}</p>
       </div>
     </div>
   );

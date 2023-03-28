@@ -20,7 +20,10 @@ function ShowBookList() {
 
   const studentlist =
     students.length === 0
-      ? 'there is no studnt record!'
+          ?
+     <div>
+        <p>Loading....</p>
+      </div>
       : students.map((student, s) => <BookCard student={student} key={s} />);
 
   return (

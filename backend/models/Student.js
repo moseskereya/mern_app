@@ -8,7 +8,16 @@ const StudentSchema = new mongoose.Schema({
     lastname: {
         type: String,
         required:true
-    }
+    },
+     email: {
+        type: String,
+        required:true
+    },
+    class: {
+        type: String,
+        required: true
+     }
+     
 })
 
 module.exports = Student = mongoose.model('student', StudentSchema)
